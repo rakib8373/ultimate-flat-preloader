@@ -1,0 +1,29 @@
+.site-preloader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+label.uf_preloader_ln > img {
+  border: 1px solid #ddd;
+  height: 100px;
+  width: auto;
+  cursor: pointer;
+}
+
+label.uf_preloader_ln > img:hover {
+	border:1px solid #0073AA;
+}
+
+label.uf_preloader_ln > input{ 
+  visibility: hidden;
+  position: absolute;
+}
+
+
+label.uf_preloader_ln > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+   border:1px solid #449D44;
+}
